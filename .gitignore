@@ -1,0 +1,35 @@
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+.env
+
+# Virtual environment
+venv/
+.vscode/
+
+# Logs
+*.log
+
+# Docker
+*.log
+*.db
+*.pid
+*.sock
+*.seed
+*.pid
+dbdata/
+*.tar
+
+# PostgreSQL
+postgres_data/
+
+# Alembic
+alembic/versions/*.py
+
+# Pytest
+.cache/
+pytest_cache/
+
+.DS_Store
